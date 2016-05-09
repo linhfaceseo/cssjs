@@ -117,7 +117,7 @@ $(window).load(function() {
 			$(divpopup).attr('id', 'myModal');
 			$(divpopup).attr('class', 'linhnguyen-modal');
 			$( "body" ).append(divpopup);
-			$("#myModal").html("<a href='http://faceseo.vn' target='_blank'><img src='http://faceseo.vn/seo/daotaoseo-trung-tam-dao-tao-seo-google/album-dao-tao-seo/ceo-linh-nguyen.JPG' width='500px'/>Đào tạo seo chuyên sâu</a>. Học tại nhà Linh Nguyễn. <h2><a class='close-linhnguyen-modal'>X</a></h2>");
+			$("#myModal").html("<a href='http://faceseo.vn/seo/daotaoseo-trung-tam-dao-tao-seo-google/' target='_blank'><img src='https://1.bp.blogspot.com/-RLY5YMvL1A4/VzAx7m60UjI/AAAAAAAAA1I/e5NgCAxrwlsuWFSZmq8vjgs191dAE_BQwCLcB/s400/dao-tao-seo-chuyen-sau.jpg' width='500px'/>Đào tạo seo chuyên sâu</a>. Học tại nhà Linh Nguyễn. <h2><a class='close-linhnguyen-modal'>X</a></h2>");
 			$('#myModal').linhnguyen($('#myModal').data());
 		}
 });
