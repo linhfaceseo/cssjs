@@ -132,7 +132,7 @@ formdiv+= ' <li class="sss-form-control gfield ">              <div class="sss-f
 formdiv+= ' <li class="sss-form-control gfield thanhan">              <div class="sss-form-control-inner">                                <div class="ginput_container">                  <input class="medium" name="entry.'+duan+'" maxlength="15" id="your_phone" placeholder="Dự án" value="'+linkhientai+'" length="11" type="tel">                </div>              </div>            </li>';
 
 
-formdiv+= '</ul>        </div>        <div class="gform_footer">          <div class="sss-form-control last" style="text-align:center;">            <input value="'+submittitle+'" type="submit">          </div><span style="display:inline-block">HOTLINE:</span> <a href="tel:'+hotline+'" class="hotlinegoi" style="display:inline-block"> '+hotline+'</a>    </div>      </form>    </div>  </div></div></div>';
+formdiv+= '</ul>        </div>        <div class="gform_footer">          <div class="sss-form-control last" style="text-align:center;">            <input value="'+submittitle+'" type="submit">          </div><span style="display:inline-block">HOTLINE:</span> <a rel="nofollow" href="tel:'+hotline+'" class="hotlinegoi" style="display:inline-block"> '+hotline+'</a>    </div>      </form>    </div>  </div></div></div>';
 
 
 jQuery("#myModalthanh").html(formdiv);		
